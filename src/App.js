@@ -6,7 +6,7 @@ const keyMap = {
   chang: "c h a n g w o r k s",
 };
 
-const frame = () => {
+const showConfetti = () => {
   confetti({
     particleCount: 700,
     angle: 60,
@@ -23,7 +23,7 @@ const frame = () => {
 
 const handlers = {
   chang() {
-    frame();
+    showConfetti();
   },
 };
 
