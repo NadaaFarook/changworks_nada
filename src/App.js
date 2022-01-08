@@ -37,7 +37,7 @@ const App = () => {
         allowChanges={true}
       >
         <div className="changworks">Changworks</div>
-        <p>Type changworks(all small) to see the magic🎉🎉🎉</p>
+        <p>Click me and type changworks(all small) to see the magic🎉🎉🎉</p>
       </HotKeys>
     </div>
   );
