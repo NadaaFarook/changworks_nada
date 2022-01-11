@@ -1,15 +1,12 @@
 .App {
-  font-family: sans-serif;
-  text-align: center;
-  height: 100vh;
-}
-.hotkeyarea {
-  height: 100%;
   display: flex;
-  align-items: center;
   flex-direction: column;
   justify-content: center;
+  text-align: center;
+  font-family: sans-serif;
+  height: 100vh;
 }
+
 .changworks {
   font-size: 50px;
   font-weight: bold;
