@@ -1,4 +1,4 @@
-import { HotKeys } from "react-hotkeys";
+import { GlobalHotKeys } from "react-hotkeys";
 import React from "react";
 import "./App.css";
 import confetti from "canvas-confetti";
@@ -30,7 +30,7 @@ const handlers = {
 const App = () => {
   return (
     <div className="App">
-      <HotKeys
+      <GlobalHotKeys
         className="hotkeyarea"
         keyMap={keyMap}
         handlers={handlers}
@@ -38,7 +38,7 @@ const App = () => {
       >
         <div className="changworks">Changworks</div>
         <p>Click me and type changworks(all small) to see the magic🎉🎉🎉</p>
-      </HotKeys>
+      </GlobalHotKeys>
     </div>
   );
 };
